@@ -1,12 +1,50 @@
-The stock market plays a pivotal role in the global economy, with its inherent volatility and sensitivity to economic, political, and psychological factors making stock price forecasting highly challenging. Accurate predictions are especially vital for high-impact companies such as FAANG (Meta, Apple, Amazon, Netflix, and Google), which influence major indices and reflect broader market sentiment.
+# 📈 FAANG Stock Price Forecasting & Agentic AI Trading Bot
 
-This study investigates the use of advanced deep learning techniques to forecast stock prices of FAANG companies using historical time-series data. Two architectures are developed and compared: a Long Short-Term Memory (LSTM) network and a Transformer-based model.
+This project explores the use of **deep learning and reinforcement learning** to forecast stock prices and simulate algorithmic trading for high-impact tech companies in the **FAANG** group — Meta, Apple, Amazon, Netflix, and Google.
 
-Both models are trained on normalized closing prices with extensive data preprocessing, statistical transformations, and feature engineering to enhance learning performance. Evaluation is performed using RMSE and residual analysis, providing insights into each model’s predictive accuracy and bias. The Transformer model outperforms LSTM in capturing complex patterns, particularly in volatile stocks like NFLX and AMZN.
+---
 
-To enhance trading performance and realism, this study integrates algorithmic trading via an agentic AI reinforcement learning framework. The Deep Q-Network (DQN)-based trading agent leverages a reward function blending profit, Sharpe ratio, and holding incentives, and observes technical indicators like RSI, volatility, and volume.
+## 🧠 Project Overview
 
-Trained with a decaying learning rate and extended exploration, the agent outperforms a traditional buy-and-hold strategy, achieving higher returns and more stable portfolio growth. The findings highlight the effectiveness of combining deep learning with adaptive agentic systems in navigating dynamic financial markets, while also exposing the limitations of static strategies in volatile environments.
+Stock price forecasting is a complex challenge due to the market's volatility and sensitivity to economic, political, and psychological factors. This project addresses the challenge by:
+
+- Forecasting stock prices using **LSTM** and **Transformer** models.
+- Simulating autonomous trading decisions using a **DQN-based agentic AI**.
+
+---
+
+## 🛠️ Key Features
+
+- **Time Series Forecasting** using:
+  - Long Short-Term Memory (LSTM)
+  - Transformer-based deep learning models
+- **Data Preprocessing**:
+  - Normalization
+  - Feature engineering
+  - Statistical transformation
+- **Model Evaluation**:
+  - Root Mean Squared Error (RMSE)
+  - Residual analysis
+- **Reinforcement Learning Trading Bot**:
+  - DQN agent trained with a reward function combining profit, Sharpe ratio, and holding incentives
+  - Uses technical indicators: RSI, volatility, and volume
+  - Outperforms buy-and-hold strategy in volatile markets
+
+---
+
+## 🔍 Technologies Used
+
+- Python
+- TensorFlow / PyTorch
+- scikit-learn
+- pandas, NumPy
+- Matplotlib, Seaborn
+- OpenAI Gym (or custom environment for trading)
+- Reinforcement Learning (Deep Q-Network)
+
+---
+
+
 
 ![Model Output](https://github.com/RenjithaMethanath/Stock-Forecasting-for-FAANG-Companies-using-Transformer-and-Algorithmic-Trading-using-Agentic-AI/blob/main/agentic-ai.png)
 
