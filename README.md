@@ -8,5 +8,5 @@ To enhance trading performance and realism, this study integrates algorithmic tr
 
 Trained with a decaying learning rate and extended exploration, the agent outperforms a traditional buy-and-hold strategy, achieving higher returns and more stable portfolio growth. The findings highlight the effectiveness of combining deep learning with adaptive agentic systems in navigating dynamic financial markets, while also exposing the limitations of static strategies in volatile environments.
 
-
+![Model Output](https://github.com/RenjithaMethanath/Stock-Forecasting-for-FAANG-Companies-using-Transformer-and-Algorithmic-Trading-using-Agentic-AI/blob/main/agentic-ai.png)
 
